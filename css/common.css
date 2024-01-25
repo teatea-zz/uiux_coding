@@ -1,0 +1,36 @@
+/* Wrapper Style */
+.wrapper {
+  width: var(--ls-full); /* Root Style Setting */
+  height: auto;
+  overflow: hidden; /* 스크롤 제거 */
+}
+
+/* 스크롤 부드럽게 가려면 .wrapper 적용*/
+
+/* Layout Left Right Offset Setting Container*/
+.container {
+  width: var(--ls-full);
+  max-width: 1280px; /* 컨테이너가 최대 1280까지 */
+  height: auto;
+  margin: auto;
+  padding: 0 2.5rem;
+}
+
+.section {
+  width: 100%;
+  height: auto;
+  padding: 7.5rem 0;
+}
+
+/* Common Button Style */
+.cmn-btn {
+  background: #000;
+  color: #fff;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.cmn-btn:hover {
+  background: #333;
+}
